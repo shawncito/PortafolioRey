@@ -483,7 +483,29 @@ nav .btn {
 
 
 
-/*anima*/
+/*animaciones*/
+.animation {
+  view-timeline: --subjectReveal block;
+  animation-timeline: --subjectReveal;
+
+  animation-name: appear;
+  animation-range-end: contain 50%;
+  animation-fill-mode: both;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
 
 #logros img:hover {
   animation-name: bounce;
@@ -510,6 +532,25 @@ nav .btn {
   animation-duration: 1s;
   
 }
+
+#profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.section__pic-container {
+  opacity: 0;
+}
+
+.section__pic-container.show {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Add your other CSS styles here */
+
 
 
 /* FOOTER SECTION */

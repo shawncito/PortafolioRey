@@ -23,38 +23,22 @@
         </div>
     </nav>
     <section id="profile">
-        <div class="section__pic-container">
-          <img src="/fotos/shawn-removebg-preview.png" alt="shawn foto" />
-        </div>
-        <div class="section__text">
-          <p class="section__text__p1">Hola, soy</p>
-          <h1 class="title">Reyshawn Lawrence</h1>
-          <p class="section__text__p2">Estudiante de ingenieria en sistemas</p>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2"
-              onclick="window.open('/fotos/trol.jpeg')"
-            >
-              Descargar CV
-            </button>
-            <button class="btn btn-color-1" onclick="location.href='./#contact'">
-              Contactame
-            </button>
-          </div>
-          <div id="socials-container">
-            <img
-              src="/fotos/insta.png"
-              alt="instagram"
-              class="icon"
-              onclick="location.href='https://www.instagram.com/iam.shawncito/'"
-            />
-            <img
-              src="/fotos/github.png"
-              alt="Github"
-              class="icon"
-              onclick="location.href='https://github.com/shawncito?tab=overview&from=2024-05-01&to=2024-05-08'"
-            />  
-        </div>
+    <div class="section__pic-container">
+      <img id="yo" src="/fotos/shawn-removebg-preview.png" alt="Foto de Shawn" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hola, soy</p>
+      <h1 class="title">Reyshawn Lawrence</h1>
+      <p class="section__text__p2">Estudiante de ingeniería en sistemas</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('/fotos/trol.jpeg')">Descargar CV</button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contactame</button>
+      </div>
+      <div id="socials-container">
+        <img src="/fotos/insta.png" alt="Instagram" class="icon" onclick="location.href='https://www.instagram.com/iam.shawncito/'" />
+        <img src="/fotos/github.png" alt="GitHub" class="icon" onclick="location.href='https://github.com/shawncito?tab=overview&from=2024-05-01&to=2024-05-08'" />  
+      </div>
+    </div>
     </div>
   </section>
   <section id="about">
@@ -93,7 +77,7 @@
           <p class="section__text__p1">Mi trabajo</p>
           <h1 class="title">Proyectos</h1>
             <p class="section__text__p2">Estos son algunos de mis proyectos</p>
-            <div class="Proyecto-container">
+            <div class="Proyecto-container animation">
                 <div class="experience-details-container">
                 
                     <div class="details-container color-container">
@@ -228,6 +212,7 @@
                     <nav>
                         
                         <ul>
+                            <li><a href="#profile">Inicio</a></li>
                             <li><a href="#about">Acerca de mi</a></li>
                             <li><a href="#projects">Mi trabajo</a></li>
                             <li><a href="#logros">Mis logros</a></li>
@@ -235,18 +220,7 @@
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
-                    
-
-                        
-                        
-
-                        
-                    
-
-
-
-
-                
+                          
     <script src="script.js"></script>
 </body>
 </html>
