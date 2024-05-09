@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi trabajo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Reyshawn Lawrence</div>
+        <div>
+        <ul>
+            <li><a href="#about">Acerca de mi</a></li>
+            <li><a href="#projects">Mi trabajo</a></li>
+            <li><a href="#logros">Mis logros</a></li>
+            <li><a href="#hobbie">hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+          <img src="/fotos/shawn-removebg-preview.png" alt="shawn foto" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hola, soy</p>
+          <h1 class="title">Reyshawn Lawrence</h1>
+          <p class="section__text__p2">Estudiante de ingenieria en sistemas</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('/fotos/trol.jpeg')"
+            >
+              Descargar CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="/fotos/insta.png"
+              alt="instagram"
+              class="icon"
+              onclick="location.href='https://www.instagram.com/iam.shawncito/'"
+            />
+            <img
+              src="/fotos/github.png"
+              alt="Github"
+              class="icon"
+              onclick="location.href='https://github.com/shawncito?tab=overview&from=2024-05-01&to=2024-05-08'"
+            />  
+        </div>
+    </div>
+  </section>
+  <section id="about">
+    
+    <div class="section__text">
+      <p class="section__text__p1">Conoceme mas</p>
+      <h1 class="title">Acerca de mi</h1>
+      
+      <p class="section__text__p2">Estudiante de ingenieria en sistemas</p>
+        <p class="section__text__p3">
+        ¡Sup! Soy Reyshawn Lawrence Pinnock, un estudiante de Ingeniería en Sistemas en la UNADECA, ubicada en Alajuela, Costa Rica. 
+        Nacido en Limón, Costa Rica, en 2004. Soy un apasionado de la tecnología y la programación.
+        Me considero una persona muy curiosa y autodidacta, siempre estoy buscando aprender algo nuevo y si no se algo me lo enseño a mi mismo.
+        
+        Me encanta la programación y la tecnología, siempre estoy buscando aprender algo nuevo y mejorar mis habilidades.
+        
+        <div class="details-container">
+           
+            <h3>Educación</h3>
+            <p>Bachillerato de secundaria <br />Cursando quinto cuatrimestre de la universidad</p>
+          </div>  
+    </p>
+        
+    </div>
+    <div class="imige-limon">
+        <img src="/fotos/limon.jpg" alt="laptop" />
+      </div> 
+    
+    
+
+
+
+    </section>
+    <section id="projects">
+        <div class="section__text">
+          <p class="section__text__p1">Mi trabajo</p>
+          <h1 class="title">Proyectos</h1>
+            <p class="section__text__p2">Estos son algunos de mis proyectos</p>
+            <div class="Proyecto-container">
+                <div class="experience-details-container">
+                
+                    <div class="details-container color-container">
+                      <div class="article-container">
+                        <img
+                          src="/fotos/calcu.PNG"
+                          alt="Project 1"
+                          class="project-img"
+                          onclick="location.href='https://shawncito.github.io/calculaduraRey/'"
+                        />
+                      </div>
+                      <h2 class="experience-sub-title project-title">CalculaduraRey</h2>
+                      <div class="btn-container">
+                        <button
+                          class="btn btn-color-2 project-btn"
+                          onclick="location.href='https://github.com/shawncito/calculaduraRey'"
+                        >
+                          Github
+                        </button>
+                        <button
+                          class="btn btn-color-2 project-btn"
+                          onclick="location.href='https://shawncito.github.io/calculaduraRey/'"
+                        >
+                        Pruébalo
+                        </button>
+                      </div>
+                      </div>
+              </div>
+
+              
+              </section>
+              <section id="logros">
+                <div class="section__text">
+                    <p class="section__text__p1">Mis logros</p>
+                    <h1 class="title">Logros</h1>
+                    <p class="section__text__p2">Mi mayor logro</p>
+                    <p class="section__text__p3">
+                        Aprender a programar es algo que me ha costado mucho, pero me siento muy orgulloso de haberlo logrado.
+                        Y no estaría donde estoy si no me hubiera graduado de la secundaria.
+                    </p>
+                    <p class="section__text__p3">Este es mi mayor logro hasta ahora.</p>
+                </div>
+                <div class="fotos-contariner">
+                    <div class="foto1">
+                        <img src="/fotos/grado1.jpg" alt="graduacion" onclick="mostrarImagen(this)" />
+                    </div>
+                    <div class="foto2">
+                        <img src="/fotos/grado2.jpg" alt="graduacion" onclick="mostrarImagen(this)" />
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Div para mostrar la imagen en grande -->
+            <div id="imagenGrande" class="imagen-grande">
+                <span class="cerrar" onclick="cerrarImagen()">X</span>
+                <img id="imagenMostrada" class="imagen-mostrada" src="" alt="imagen en grande" />
+            </div>
+            <div class="box"></div>
+            <section id="hobbie">
+                <div class="section__text">
+                    <p class="section__text__p1">Mis hobbies</p>
+                    <h1 class="title">Hobbies</h1>
+                    <p class="section__text__p2">Estos son algunos de mis hobbies</p>
+                    <p class="section__text__p3">
+                        Me encanta la programación y la tecnología, siempre estoy buscando aprender algo nuevo y mejorar mis habilidades.
+                    </p>
+                    <p class="section__text__p3">
+                        Me gusta mucho la música, me relaja y me ayuda a concentrarme.
+                    </p>
+                    <p class="section__text__p3">
+                        Me gusta mucho el deporte, me ayuda a mantenerme en forma y a despejar mi mente.
+                    </p>
+                </div>
+                
+            
+            </section>
+             <section id="contact">
+                        <p class="section__text__p1">Get in Touch</p>
+                        <h1 class="title">Contact Me</h1>
+                        <div class="contact-info-upper-container">
+                          <div class="contact-info-container">
+                            <img
+                              src="/fotos/email.png"
+                              alt="Email icon"
+                              class="icon contact-icon email-icon"
+                            />
+                            <p><a href="mailto:examplemail@gmail.com">reyshawn.lawrence@unadeca.net</a></p>
+                          </div>
+                          <div class="contact-info-container">
+                            <img
+                                src="/fotos/insta.png"
+                                alt="instagram"
+                                class="icon"
+                                onclick="location.href='https://www.instagram.com/iam.shawncito/'"
+                                />
+                            <p><a href="https://www.instagram.com/iam.shawncito/">@iam.shawncito</a></p>
+                          </div>
+                            <div class="contact-info-container">
+                                <img
+                                src="/fotos/github.png"
+                                alt="Github"
+                                class="icon"
+                                onclick="location.href='https://github.com/shawncito?tab=overview&from=2024-05-01&to=2024-05-08'"
+                                />  
+                                <p><a href="https://github.com/shawncito?tab=overview&from=2024-05-01&to=2024-05-08"
+                                >shawncito</a></p>
+                        </div>
+                            <div class="contact-info-container">
+                                <img
+                                  src="/fotos/phone.png"
+                                  alt="Phone icon"
+                                  class="icon contact-icon phone-icon"
+                                />
+                                <p><a href="tel:+506 0000-0000">+506 6126-8302</a></p>
+                              </div>
+                                <div class="contact-info-container">
+                                    <img
+                                    src="/fotos/location.png"
+                                    alt="Location icon"
+                                    class="icon contact-icon location-icon"
+                                    onclick="location.href='https://www.google.com/maps/place/San+Isidro,+Provincia+de+Alajuela,+Alajuela/@10.090914,-84.1959715,12z/data=!3m1!4b1!4m6!3m5!1s0x8fa0f6cf56d02485:0x2eb51ae6e4908d14!8m2!3d10.0799148!4d-84.1957827!16s%2Fg%2F11v5by26_0?entry=ttu'"
+                                    />
+                                    
+                                    <p><a href="https://www.google.com/maps/place/San+Isidro,+Provincia+de+Alajuela,+Alajuela/@10.090914,-84.1959715,12z/data=!3m1!4b1!4m6!3m5!1s0x8fa0f6cf56d02485:0x2eb51ae6e4908d14!8m2!3d10.0799148!4d-84.1957827!16s%2Fg%2F11v5by26_0?entry=ttu"
+                                    >San Isidro, Alajuela, Costa Rica</a></p>
+
+                                    
+
+                    </div>
+                </section>
+                <footer>
+                    <nav>
+                        
+                        <ul>
+                            <li><a href="#about">Acerca de mi</a></li>
+                            <li><a href="#projects">Mi trabajo</a></li>
+                            <li><a href="#logros">Mis logros</a></li>
+                            <li><a href="#hobbie">Hobbies</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    
+
+                        
+                        
+
+                        
+                    
+
+
+
+
+                
+    <script src="script.js"></script>
+</body>
+</html>
+
